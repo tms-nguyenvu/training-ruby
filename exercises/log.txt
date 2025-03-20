@@ -1,0 +1,14 @@
+# Logfile created on 2025-03-20 22:02:13 +0700 by logger.rb/v1.6.4
+2025-03-20 22:02:13 - INFO - Table 'students' has been created or already exists.
+2025-03-20 22:02:17 - INFO - Fetched student with ID 1: [[1, "Vu", 23, 10.0]]
+2025-03-20 22:02:17 - ERROR - ID already exists: 1
+2025-03-20 22:02:54 - ERROR - No student has age 30
+2025-03-20 22:03:35 - INFO - Fetched student with ID 5: []
+2025-03-20 22:03:35 - ERROR - Student not found: 5
+2025-03-20 22:03:44 - INFO - Fetched student with ID 4: []
+2025-03-20 22:03:44 - ERROR - Student not found: 4
+2025-03-20 22:03:54 - INFO - User exited the system
+2025-03-20 22:19:32 - INFO - Table 'students' has been created or already exists.
+2025-03-20 22:19:34 - INFO - Fetched student with ID 1: [[1, "Vu", 23, 10.0]]
+2025-03-20 22:19:34 - ERROR - ID already exists: 1
+2025-03-20 22:20:03 - INFO - User exited the system

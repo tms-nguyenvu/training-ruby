@@ -2,13 +2,16 @@ require 'sqlite3'
 require_relative 'connect_to_db'
 require_relative 'person'
 require_relative 'student_management_error'
+require_relative 'log_helper'
 
 class StudentManager < Person
   include ConnectToDb 
+  include LogHelper
   
   def initialize()
     @db = SQLite3::Database.new(DB_NAME)
     create_table
+    create_file("log.txt")
     super(name, age)
   end
 
@@ -40,7 +43,9 @@ class StudentManager < Person
       when 6 then filter_by_age
       when 7 then delete_student
       when 8 then update_student
-      when 9 then break
+      when 9 then 
+        create_log(Logger::INFO, "User exited the system")
+        break
       else
         puts "Invalid choice! Please try again.\n\n"
       end
@@ -72,11 +77,14 @@ class StudentManager < Person
         raise InvalidScoreError.new(score)
       end
       @db.execute("INSERT INTO students (id, name, age, score) VALUES (?, ?, ?, ?)", [id, name, age, score])
+      create_log(Logger::INFO, "Student added: ID=#{id}, Name=#{name}, Age=#{age}, Score=#{score}")
       puts "Student added successfully! \n\n"
     rescue IDAlreadyExistsError, InvalidScoreError, InvalidAgeError => error
+      create_log(Logger::ERROR, error.message)
       puts "Error: #{error.message}"
     rescue SQLite3::Exception => error
-    puts "Database error: #{error.message}"
+      create_log(Logger::ERROR, "Database error: #{error.message}")
+      puts "Database error: #{error.message}"
     end
   end
 
@@ -92,8 +100,10 @@ class StudentManager < Person
       end
       puts "\n"
       rescue EmptyDatabaseError => error
+        create_log(Logger::ERROR, error.message)
         puts "Error: #{error.message}"
       rescue SQLite3::Exception => error
+        create_log(Logger::ERROR, "Database error: #{error.message}")
         puts "Database error: #{error.message}"
     end
   end
@@ -110,8 +120,10 @@ class StudentManager < Person
         raise StudentNotFoundError.new(id)
       end
     rescue StudentNotFoundError => error
+      create_log(Logger::ERROR, error.message)
       puts "Error: #{error.message}"
     rescue SQLite3::Exception => error
+      create_log(Logger::ERROR, "Database error: #{error.message}")
       puts "Database error: #{error.message}"
     end
   end
@@ -129,8 +141,10 @@ class StudentManager < Person
         raise EmptyDatabaseError.new()
       end
     rescue EmptyDatabaseError => error
+      create_log(Logger::ERROR, error.message)
       puts "Error: #{error.message}"
     rescue SQLite3::Exception => error
+      create_log(Logger::ERROR, "Database error: #{error.message}")
       puts "Database error: #{error.message}"
     end
   end
@@ -145,8 +159,10 @@ class StudentManager < Person
         raise EmptyDatabaseError.new()
       end
     rescue EmptyDatabaseError => error
+      create_log(Logger::ERROR, error.message)
       puts "Error: #{error.message}"
     rescue SQLite3::Exception => error
+      create_log(Logger::ERROR, "Database error: #{error.message}")
       puts "Database error: #{error.message}"
     end
   end
@@ -167,8 +183,10 @@ class StudentManager < Person
         puts "\n"
       end
     rescue EmptyDatabaseError => error
+      create_log(Logger::ERROR, error.message)
       puts "Error: #{error.message}"
     rescue SQLite3::Exception => error
+      create_log(Logger::ERROR, "Database error: #{error.message}")
       puts "Database error: #{error.message}"
     end
   end
@@ -184,8 +202,10 @@ class StudentManager < Person
       @db.execute("DELETE FROM students WHERE id = ?", id)
       puts "Student deleted successfully! \n\n"
     rescue StudentNotFoundError => error
+      create_log(Logger::ERROR, error.message)
       puts "Error: #{error.message}"
     rescue SQLite3::Exception => error
+      create_log(Logger::ERROR, "Database error: #{error.message}")
       puts "Database error: #{error.message}"
     end 
   end
@@ -207,8 +227,10 @@ class StudentManager < Person
       @db.execute("UPDATE students SET name = ?, age = ?, score = ? WHERE id = ?", [name, age, score, id])
       puts "Student updated successfully! \n\n"
     rescue StudentNotFoundError => error
+      create_log(Logger::ERROR, error.message)
       puts "Error: #{error.message}"
     rescue SQLite3::Exception => error
+      create_log(Logger::ERROR, "Database error: #{error.message}")
       puts "Database error: #{error.message}"
     end
   end
