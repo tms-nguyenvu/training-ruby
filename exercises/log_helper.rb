@@ -13,7 +13,7 @@ module LogHelper
   end
 
   def create_log(level, message)
-    log_file = "log.txt"
+    log_file = "log.log"
     logger = Logger.new(log_file, File::WRONLY | File::APPEND | File::CREAT)
     logger.formatter = proc do |severity, datetime, _progname, msg|
       "#{datetime.strftime("%Y-%m-%d %H:%M:%S")} - #{severity} - #{msg}\n"

@@ -11,7 +11,7 @@ class StudentManager < Person
   def initialize()
     @db = SQLite3::Database.new(DB_NAME)
     create_table
-    create_file("log.txt")
+    create_file("log.log")
     super(name, age)
   end
 
