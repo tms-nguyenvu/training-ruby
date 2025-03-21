@@ -1,0 +1,3 @@
+class BookCollection
+  
+end
