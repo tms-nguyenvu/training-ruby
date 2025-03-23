@@ -2,15 +2,21 @@ module SimpleRecord
   module Query
     def self.included(base)
       base.extend(ClassMethods)
-      base.class_eval do
-        include InstanceMethods
-        @records = [] # class instance variable
-        @next_id = 1  # class instance variable
-      end
+      base.include InstanceMethods
     end
 
     module ClassMethods 
-      attr_reader :records 
+        # @records = [] # class instance variable
+        # @next_id = 1  # class instance variable
+      def records
+        @records ||= []
+      end
+
+      def next_id
+        @next_id ||= 1
+      end
+
+
       # define attribute
       def attribute(name)
         # define getter
@@ -27,8 +33,8 @@ module SimpleRecord
       # create record
       def create(attributes = {})
         record = new
-        record.instance_variable_set(:@attributes, attributes.merge(id: @next_id))
-        @records << record
+        record.instance_variable_set(:@attributes, attributes.merge(id: next_id))
+        records << record
         @next_id += 1
         record
       end
