@@ -77,31 +77,31 @@
 # Bài 6
 
 
-calculations = {
-  add: ->(a, b) { a + b },
-  subtract: ->(a, b) { a - b },
-  multiply: ->(a, b) { a * b },
-  divide: ->(a, b) { a / b.to_f } 
-}
+# calculations = {
+#   add: ->(a, b) { a + b },
+#   subtract: ->(a, b) { a - b },
+#   multiply: ->(a, b) { a * b },
+#   divide: ->(a, b) { a / b.to_f } 
+# }
 
-operations = {
-  add: "+",
-  subtract: "-",
-  multiply: "*",
-  divide: "/"
-}
+# operations = {
+#   add: "+",
+#   subtract: "-",
+#   multiply: "*",
+#   divide: "/"
+# }
 
-def calculate(a, b, operation_key, calculations, operations)
-  operation = calculations[operation_key]  
-  operator = operations[operation_key]     
-  result = operation.call(a, b)            
+# def calculate(a, b, operation_key, calculations, operations)
+#   operation = calculations[operation_key]  
+#   operator = operations[operation_key]     
+#   result = operation.call(a, b)            
 
-  puts "#{a} #{operator} #{b} = #{result}"
-end
+#   puts "#{a} #{operator} #{b} = #{result}"
+# end
 
-# Gọi hàm với symbol để lấy đúng phép toán
-calculate(10, 5, :add, calculations, operations)
-calculate(10, 5, :subtract, calculations, operations)
-calculate(10, 5, :multiply, calculations, operations)
-calculate(10, 5, :divide, calculations, operations)
+# # Gọi hàm với symbol để lấy đúng phép toán
+# calculate(10, 5, :add, calculations, operations)
+# calculate(10, 5, :subtract, calculations, operations)
+# calculate(10, 5, :multiply, calculations, operations)
+# calculate(10, 5, :divide, calculations, operations)
 
