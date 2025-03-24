@@ -1,3 +1,4 @@
+require 'pry'
 module ActiveModel
   module Query
     # Phương thức này được gọi khi module được include vào một class
