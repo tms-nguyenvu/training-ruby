@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "tms_task_manager"
+
+TmsTaskManager::CLI.start(ARGV)
