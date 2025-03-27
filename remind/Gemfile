@@ -1,0 +1,21 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in remind.gemspec
+gemspec
+
+gem 'irb'
+gem 'rake', '~> 13.0'
+
+gem 'dotenv', groups: %i[development test]
+
+gem 'whenever', require: false
+
+gem 'thor'
+
+gem 'sqlite3', '~> 1.5'
+
+gem 'pry', '~> 0.15.2'
+
+gem 'tms_task_manager', '~> 0.1.6'
