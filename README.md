@@ -1,4 +1,15 @@
-Hướng dẫn sử dụng:
+
+✍️ TmsTaskManager provides an easy way to create, manage, and track tasks using a simple Ruby-based interface with database support.
+
+
+⚙️ Hướng dẫn cài đặt:
+
+*Gemfile: gem 'tms_task_manager', '~> 0.1.6'
+
+*Install: gem install tms_task_manager
+
+
+📌 Hướng dẫn sử dụng:
 
 1) Thêm task:
 
