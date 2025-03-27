@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
-require "tms_task_manager"
+# frozen_string_literal: true
 
-TmsTaskManager::CLI.start(ARGV)
+require 'tms_task_manager'
+
+TmsTaskManager::Cli::Command.start(ARGV)

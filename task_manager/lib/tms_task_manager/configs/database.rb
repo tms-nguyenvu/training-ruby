@@ -1,17 +1,21 @@
-require "sqlite3"
+# frozen_string_literal: true
+
+require 'sqlite3'
 
 module TmsTaskManager
-  class Database
-    DB_PATH = File.expand_path("../../remind.db", __FILE__)
+  module Configs
+    class Database
+      DB_PATH = File.expand_path('../remind.db', __dir__)
 
-    class << self
-      def connection
-        @db ||= SQLite3::Database.new(DB_PATH).tap do |db|
-          db.results_as_hash = true  
+      class << self
+        def connection
+          @connection ||= SQLite3::Database.new(DB_PATH).tap do |db|
+            db.results_as_hash = true
+          end
         end
-      end
-      def setup
-        connection.execute_batch <<-SQL
+
+        def setup
+          connection.execute_batch <<-SQL
           CREATE TABLE IF NOT EXISTS tasks (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             title VARCHAR(255),
@@ -35,7 +39,8 @@ module TmsTaskManager
             FOREIGN KEY (task_id) REFERENCES tasks(id),
             FOREIGN KEY (category_id) REFERENCES categories(id)
           );
-        SQL
+          SQL
+        end
       end
     end
   end

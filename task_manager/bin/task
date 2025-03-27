@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
-require_relative "../lib/tms_task_manager"
+# frozen_string_literal: true
 
-# puts "ARGV: #{ARGV.inspect}" 
-TmsTaskManager::CLI.start(ARGV)
+require_relative '../lib/tms_task_manager'
+
+# puts "ARGV: #{ARGV.inspect}"
+TmsTaskManager::Cli::Command.start(ARGV)
