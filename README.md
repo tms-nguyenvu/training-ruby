@@ -65,7 +65,7 @@ gem install tms_task_manager
 
 ### Create a new task:
 ```sh
-tms_task_manager create 'title' --desc 'description' --start 'DD-MM-YY' --end 'DD-MM-YY'
+tms_task_manager create 'title' --desc 'description' --start 'YY-MM-DD' --end 'YY-MM-DD'
 ```
 
 ### List all tasks:
