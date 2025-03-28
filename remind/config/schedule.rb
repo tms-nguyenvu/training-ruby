@@ -11,7 +11,9 @@ every 7.days do
   rake 'log:clear'
 end
 
-every month do
+
+every 1.month do
   rake 'remind:completed_tasks_last_month'
 end
+
 

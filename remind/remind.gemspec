@@ -38,7 +38,12 @@ spec.summary = 'A task reminder and notification gem.'
   # Dependencies
   spec.add_dependency 'pry', '~> 0.14'
   spec.add_dependency 'sqlite3', '>= 1.5', '< 3.0'
-
+  spec.add_dependency 'tms_task_manager', '~> 0.1.6'
+  spec.add_dependency 'thor'
+  spec.add_dependency 'whenever', '~> 1.0'
+  spec.add_dependency 'logger', '~> 1.7'
+  spec.add_dependency 'dotenv'
+  # For development
   spec.add_development_dependency 'rspec', '~> 3.12'
   spec.add_development_dependency 'rubocop', '~> 1.50'
   # For more information and examples about making a new gem, check out our
