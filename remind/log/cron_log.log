@@ -1,42 +1,15 @@
-/home/vu/Documents/training-ruby/remind/lib/remind/helpers/log_handler.rb:2: warning: logger was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.5.0.
-You can add logger to your Gemfile or gemspec to silence this warning.
-/home/vu/Documents/training-ruby/remind/lib/remind/helpers/log_handler.rb:4: warning: logger was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.5.0.
-You can add logger to your Gemfile or gemspec to silence this warning.
-/home/vu/Documents/training-ruby/remind/lib/remind/helpers/log_handler.rb:4: warning: logger was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.5.0.
-You can add logger to your Gemfile or gemspec to silence this warning.
-bundler: failed to load command: rake (/home/vu/.rvm/rubies/ruby-3.4.2/bin/rake)
-/home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/resolver.rb:355:in 'Bundler::Resolver#raise_not_found!': Could not find gem 'tms_task_manager (~> 0.1.6)' in locally installed gems. (Bundler::GemNotFound)
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/resolver.rb:455:in 'block in Bundler::Resolver#prepare_dependencies'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/resolver.rb:430:in 'Hash#each'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/resolver.rb:430:in 'Enumerable#filter_map'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/resolver.rb:430:in 'Bundler::Resolver#prepare_dependencies'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/resolver.rb:64:in 'Bundler::Resolver#setup_solver'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/resolver.rb:29:in 'Bundler::Resolver#start'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/definition.rb:750:in 'Bundler::Definition#start_resolution'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/definition.rb:346:in 'Bundler::Definition#resolve'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/definition.rb:657:in 'Bundler::Definition#materialize'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/definition.rb:237:in 'Bundler::Definition#specs'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/definition.rb:304:in 'Bundler::Definition#specs_for'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/runtime.rb:18:in 'Bundler::Runtime#setup'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler.rb:167:in 'Bundler.setup'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/setup.rb:32:in 'block in <top (required)>'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/ui/shell.rb:173:in 'Bundler::UI::Shell#with_level'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/ui/shell.rb:119:in 'Bundler::UI::Shell#silence'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/setup.rb:32:in '<top (required)>'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/cli/exec.rb:57:in 'Kernel#require_relative'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/cli/exec.rb:57:in 'Bundler::CLI::Exec#kernel_load'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/cli/exec.rb:23:in 'Bundler::CLI::Exec#run'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/cli.rb:452:in 'Bundler::CLI#exec'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/vendor/thor/lib/thor/command.rb:28:in 'Bundler::Thor::Command#run'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in 'Bundler::Thor::Invocation#invoke_command'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/vendor/thor/lib/thor.rb:538:in 'Bundler::Thor.dispatch'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/cli.rb:35:in 'Bundler::CLI.dispatch'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/vendor/thor/lib/thor/base.rb:584:in 'Bundler::Thor::Base::ClassMethods#start'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/cli.rb:29:in 'Bundler::CLI.start'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/exe/bundle:28:in 'block in <top (required)>'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/lib/bundler/friendly_errors.rb:117:in 'Bundler.with_friendly_errors'
-	from /home/vu/.rvm/gems/ruby-3.4.2/gems/bundler-2.6.6/exe/bundle:20:in '<top (required)>'
-	from /home/vu/.rvm/gems/ruby-3.4.2/bin/bundle:25:in 'Kernel#load'
-	from /home/vu/.rvm/gems/ruby-3.4.2/bin/bundle:25:in '<main>'
-	from /home/vu/.rvm/gems/ruby-3.4.2/bin/ruby_executable_hooks:22:in 'Kernel#eval'
-	from /home/vu/.rvm/gems/ruby-3.4.2/bin/ruby_executable_hooks:22:in '<main>'
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}

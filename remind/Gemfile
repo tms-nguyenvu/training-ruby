@@ -19,3 +19,5 @@ gem 'sqlite3', '~> 1.5'
 gem 'pry', '~> 0.15.2'
 
 gem 'tms_task_manager', '~> 0.1.6'
+
+gem 'logger', '~> 1.7'

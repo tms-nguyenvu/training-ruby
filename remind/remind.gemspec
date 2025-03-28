@@ -3,7 +3,7 @@
 require_relative 'lib/remind/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'remind'
+  spec.name = 'tms-remind'
   spec.version = Remind::VERSION
   spec.authors = ['tms-nguyenvu']
   spec.email = ['vu.nguyen1@tomosia.com']

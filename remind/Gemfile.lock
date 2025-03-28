@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    remind (0.1.0)
+    tms-remind (0.1.2)
       pry (~> 0.14)
-      sqlite3 (~> 1.5)
+      sqlite3 (>= 1.5, < 3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -22,6 +22,7 @@ GEM
     json (2.10.2)
     language_server-protocol (3.17.0.4)
     lint_roller (1.1.0)
+    logger (1.7.0)
     method_source (1.1.0)
     mini_portile2 (2.8.8)
     parallel (1.26.3)
@@ -94,13 +95,14 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   irb
+  logger (~> 1.7)
   pry (~> 0.15.2)
   rake (~> 13.0)
-  remind!
   rspec (~> 3.12)
   rubocop (~> 1.50)
   sqlite3 (~> 1.5)
   thor
+  tms-remind!
   tms_task_manager (~> 0.1.6)
   whenever
 
