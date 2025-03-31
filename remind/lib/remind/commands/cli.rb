@@ -5,7 +5,6 @@ require 'pry'
 module Remind
   module Commands
     class Cli < Thor
-
     SCHEDULE_FILE = File.expand_path(File.join(Dir.pwd, 'config', 'schedule.rb'))
 
       desc "set_env", "Set SLACK_WEBHOOK_URL in .env file"

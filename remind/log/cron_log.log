@@ -1,3 +1,84 @@
-Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
 {"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
 {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+{"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+{"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+{"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+{"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}
+{"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}
+{"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+
+From: /home/vu/Documents/training-ruby/remind/lib/remind.rb:5 :
+
+     1: # frozen_string_literal: true
+     2: 
+     3: require_relative 'remind/version'
+     4: require 'pry'
+ =>  5: binding.pry
+     6: %w[commands helpers services].each do |folder|
+     7:   Dir.glob("#{__dir__}/remind/#{folder}/*.rb").sort.each { |file| require_relative(file) }
+     8: end
+     9: module Remind
+    10:   class Error < StandardError; end
+
+[0G[?25l[1G[K[1G[0m[1] pry(main)> [0m[?25h[16G[?25l[1G[K[?25h[1G[1] pry(main)> 
+[1GListing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+
+From: /home/vu/Documents/training-ruby/remind/lib/remind.rb:5 :
+
+     1: # frozen_string_literal: true
+     2: 
+     3: require_relative 'remind/version'
+     4: require 'pry'
+ =>  5: binding.pry
+     6: %w[commands helpers services].each do |folder|
+     7:   Dir.glob("#{__dir__}/remind/#{folder}/*.rb").sort.each { |file| require_relative(file) }
+     8: end
+     9: module Remind
+    10:   class Error < StandardError; end
+
+[0G[?25l[1G[K[1G[0m[1] pry(main)> [0m[?25h[16G[?25l[1G[K[?25h[1G[1] pry(main)> 
+[1GListing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+
+From: /home/vu/Documents/training-ruby/remind/lib/remind.rb:5 :
+
+     1: # frozen_string_literal: true
+     2: 
+     3: require_relative 'remind/version'
+     4: require 'pry'
+ =>  5: binding.pry
+     6: %w[commands helpers services].each do |folder|
+     7:   Dir.glob("#{__dir__}/remind/#{folder}/*.rb").sort.each { |file| require_relative(file) }
+     8: end
+     9: module Remind
+    10:   class Error < StandardError; end
+
+[0G[?25l[1G[K[1G[0m[1] pry(main)> [0m[?25h[16G[?25l[1G[K[?25h[1G[1] pry(main)> 
+[1GListing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]
+Listing all tasks: [{"id" => 1, "title" => "Học Rails", "status" => "completed", "start_date" => "2025-03-25", "end_date" => "2025-03-26"}, {"id" => 3, "title" => "Learn Python", "status" => "pending", "start_date" => "2024-02-01", "end_date" => "2024-03-01"}, {"id" => 4, "title" => "Learn HTML&CSS", "status" => "pending", "start_date" => "2025-02-19", "end_date" => "2025-03-15"}]

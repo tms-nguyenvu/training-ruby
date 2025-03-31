@@ -1,10 +1,11 @@
 # frozen_string_literal: true
 
 require_relative 'remind/version'
-require_relative 'remind/services/scheduler'
-require_relative 'remind/services/report'
-require_relative 'remind/helpers/log_handler'
-require_relative 'remind/commands/cli'
+require 'pry'
+# binding.pry
+%w[commands helpers services].each do |folder|
+  Dir.glob("#{__dir__}/remind/#{folder}/*.rb").sort.each { |file| require_relative(file) }
+end
 module Remind
   class Error < StandardError; end
   # Your code goes here...

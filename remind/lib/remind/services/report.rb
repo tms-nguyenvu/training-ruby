@@ -2,9 +2,7 @@
 
 require 'time'
 require 'tms_task_manager'
-require_relative 'notifier'
-require_relative '../helpers/error_handler'
-require_relative '../helpers/log_handler'
+
 
 module Remind
   module Service
@@ -16,7 +14,6 @@ module Remind
       def self.completed_tasks_last_month
         handle_errors do
           tasks = TmsTaskManager::Services::TaskList.list
-          puts tasks
           current_time = Time.now
           one_month_ago = current_time - (30 * 24 * 60 * 60)
           messages = []

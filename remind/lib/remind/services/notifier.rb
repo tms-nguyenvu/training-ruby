@@ -4,7 +4,7 @@ require 'net/http'
 require 'json'
 require 'dotenv/load'
 require 'pry'
-require_relative '../helpers/error_handler'
+
 
 module Remind
   module Service

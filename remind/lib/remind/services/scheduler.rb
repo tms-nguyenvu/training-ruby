@@ -3,9 +3,7 @@
 require 'time'
 require 'pry'
 require 'tms_task_manager'
-require_relative 'notifier'
-require_relative '../helpers/error_handler'
-require_relative '../helpers/log_handler'
+
 
 module Remind
   module Service
@@ -17,7 +15,6 @@ module Remind
       def self.start
         handle_errors do
           tasks = TmsTaskManager::Services::TaskList.list
-          puts tasks
           # binding.pry
           messages = []
           tasks.each do |task|
